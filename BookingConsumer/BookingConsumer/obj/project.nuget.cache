@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PnTUeQvtGXvhKnC6e3Cs6lB2RiFRF5gvwIvFSuZZk0h8ikVbaedOUaz3DwvO/yQsxja6jvlElqij/K5tABFyGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jacob\\Desktop\\rabbitmq\\Booking\\BookingConsumer\\BookingConsumer\\BookingConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacob\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\Jacob\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Jacob\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
