@@ -1,31 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacob\\Desktop\\rabbitmq\\Booking\\BookingWeb\\BookingWeb\\BookingWeb.csproj": {}
+    "C:\\Users\\Jacob\\Desktop\\rabbitmq\\NewBooking\\BookingWeb\\BookingWeb\\BookingWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacob\\Desktop\\rabbitmq\\Booking\\BookingWeb\\BookingWeb\\BookingWeb.csproj": {
+    "C:\\Users\\Jacob\\Desktop\\rabbitmq\\NewBooking\\BookingWeb\\BookingWeb\\BookingWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacob\\Desktop\\rabbitmq\\Booking\\BookingWeb\\BookingWeb\\BookingWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Jacob\\Desktop\\rabbitmq\\NewBooking\\BookingWeb\\BookingWeb\\BookingWeb.csproj",
         "projectName": "BookingWeb",
-        "projectPath": "C:\\Users\\Jacob\\Desktop\\rabbitmq\\Booking\\BookingWeb\\BookingWeb\\BookingWeb.csproj",
+        "projectPath": "C:\\Users\\Jacob\\Desktop\\rabbitmq\\NewBooking\\BookingWeb\\BookingWeb\\BookingWeb.csproj",
         "packagesPath": "C:\\Users\\Jacob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacob\\Desktop\\rabbitmq\\Booking\\BookingWeb\\BookingWeb\\obj\\",
+        "outputPath": "C:\\Users\\Jacob\\Desktop\\rabbitmq\\NewBooking\\BookingWeb\\BookingWeb\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Jacob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -36,29 +41,20 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
+            "Microsoft.AspNetCore.WebUtilities": {
               "target": "Package",
-              "version": "[3.2.1, )"
+              "version": "[2.2.0, )"
             },
-            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
-              "suppressParent": "All",
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[3.2.1, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.2.1, )"
+              "version": "[12.0.3, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
               "version": "[6.2.1, )"
-            },
-            "System.Net.Http.Json": {
-              "target": "Package",
-              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -72,11 +68,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
